@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
     int number, originalNumber, remainder, result = 0;
 
@@ -7,6 +8,7 @@ int main()
     scanf("%d", &number);
 
     originalNumber = number;
+    getch();
 
     while (originalNumber != 0)
     {
@@ -20,5 +22,5 @@ int main()
     else
         printf("%d is not an Armstrong number.",number);
 
-    return 0;
+    
 }
