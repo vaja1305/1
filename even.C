@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main() 
+#include<conio.h>
+void main() 
 
 {
 
